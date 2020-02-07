@@ -4,7 +4,7 @@ O senhor e-Deployer gostaria de comprar uma ação e vendê-la em um curto espa�
 
 Determine o maior lucro dado esse array K de preços.
 
-##__Exemplo 1:
+## Exemplo 1:
 
 __Input:__ [7,1,5,3,6,4]
 
@@ -14,7 +14,7 @@ __Explicação:__ Este valor acontece quando compramos a ação no 2o dia e a ve
 
 
 
-##__Exemplo 2:
+## Exemplo 2:
 
 __Input:__ [7,6,4,3,1]
 
