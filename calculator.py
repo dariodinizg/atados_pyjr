@@ -8,11 +8,13 @@ def stock_calculator(stock_prices: list) -> float:
     import pandas as pd
 
     df = pd.read_csv('itsa4_historica.csv')
-    t0 = time.time()
     best_profit = stock_calculator(df['FECHAMENTO'])
-    t1 = time.time()
     print(f'Best selling profit: R${best_profit:.2f}')
-    print(f'Execution time: {t1 - t0}')
+
+    Output:
+    Best selling profit: R$1.81
+  
+    Performance time: 0.021959781646728516
 
     """
     profit = 0
